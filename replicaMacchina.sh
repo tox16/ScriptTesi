@@ -16,7 +16,7 @@ do
              then
                 qm shutdown "$1"
                 sleep 30s
-                ./clonaMacchina.sh "$1"
+                ./replicaMacchina.sh "$1"
              else
                 exit $?
              fi
